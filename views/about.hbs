@@ -1,0 +1,30 @@
+<div class="container">
+<div class="row">
+    <div class="col">
+      
+    </div>
+    <div class="col-6">
+        <br><br><br><br><br>
+      <div class="card border-success mb-3" style="max-width: 50rem;">
+  <div class="card-header"><img src="../../img/11.jpg" class="card-img-top" alt="..."></div>
+  <div class="card-body text-success">
+    <h5 class="card-title">Aboutme</h5>
+    <p class="card-text"> 
+      <ul class="info" >
+        {{#with myData.aboutme}}
+        <li><span class="first-block">Full Name :</span><span class="second-block">{{FullName}}</span></li>
+        <li><span class="first-block">Phone :</span><span class="second-block">{{Phone}}</span></li>
+        <li><span class="first-block">Email :</span><span class="second-block"><a href="mailto:{{Email}}">{{Email}}</a></span></li>
+        <li><span class="first-block">WebSite :</span><span class="second-block"><a href="{{Website}}">{{Website}}</a></span></li>
+        <li><span class="first-block">Address :</span><span class="second-block">{{Address}}</span></li>
+        {{/with}}
+    </ul> </p>
+  </div>
+</div>
+    </div>
+    <div class="col">
+      
+    </div>
+  </div>
+</div>
+<br><br><br><br><br>
